@@ -1,0 +1,14 @@
+{
+    "modelUri": "gpt://your_identificator/yandexgpt-lite",
+    "completionOptions": {
+      "stream": false,
+      "temperature": 0.6,
+      "maxTokens": "2000"
+    },
+    "messages": [
+      {
+        "role": "system",
+        "text": "Ты - ассистент помощник"
+      }
+    ]
+  }
