@@ -1,6 +1,7 @@
 package utils
 
 import (
+	"main/yandexgpt/utils" .
 	"bytes"
 	"encoding/json"
 	"fmt"
