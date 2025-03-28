@@ -12,7 +12,7 @@ import (
 )
 
 func main() {
-
+	// xd moment
 	env, _ := goenv.Read("config.env")
 	API_KEY := env["TELEGRAM_APIKEY"]
 
