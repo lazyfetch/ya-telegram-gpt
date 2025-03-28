@@ -10,7 +10,7 @@ import (
 	tg "github.com/mymmrac/telego"
 	th "github.com/mymmrac/telego/telegohandler"
 )
-
+// xd moment p.3
 func main() {
 	// xd moment
 	env, _ := goenv.Read("config.env")
