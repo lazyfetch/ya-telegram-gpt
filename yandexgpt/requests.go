@@ -11,7 +11,7 @@ import (
 )
 
 func Requests(prompt string, id int64) string {
-
+	// test comm
 	env, _ := goenv.Read("config.env")
 	API_KEY := fmt.Sprintf("Api-key %s", env["YANDEX_APIKEY"])
 
