@@ -27,7 +27,7 @@ func IsThereFile(id int64) bool {
 func CreateFile(id int64) {
 
 	if !IsThereFile(id) {
-
+		// test string
 		// Copy base.json file
 		file, _ := os.Open("./ai-models/yandexgpt/history/base.json")
 		data, _ := os.ReadFile(file.Name())
